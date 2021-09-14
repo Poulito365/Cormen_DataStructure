@@ -16,7 +16,7 @@ def insertion_sort(A):
         while i>=0 and key<A[i]:
             A[i+1]=A[i]
             i=i-1
-            A[i+1]=key
+        A[i+1]=key
     return A
 ##########Test Case 1##########
 A=[5,2,4,6,1,3]
